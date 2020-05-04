@@ -1,0 +1,11 @@
+[package]
+name = "create2"
+version = "0.0.0"
+authors = ["Matt Garnett <crates@garnett.dev>"]
+edition = "2018"
+
+[dependencies]
+sha3 = "0.8.2"
+
+[dev-dependencies]
+hex = "0.4.2"

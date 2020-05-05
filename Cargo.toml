@@ -9,3 +9,6 @@ sha3 = "0.8.2"
 
 [dev-dependencies]
 hex = "0.4.2"
+
+[workspace]
+members = ["bin/create2"]

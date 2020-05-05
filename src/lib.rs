@@ -1,6 +1,6 @@
 use sha3::{Digest, Keccak256};
 
-/// Deterministically calculate the address a contract will be deployed to using `CREATE2`.
+/// Deterministically calculates the address a contract will be deployed to using `CREATE2`.
 ///
 /// This implements the following formula https://eips.ethereum.org/EIPS/eip-1014
 pub fn calc_addr(address: &[u8; 20], salt: &[u8; 32], init_code: &[u8]) -> [u8; 20] {

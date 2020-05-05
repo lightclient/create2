@@ -1,0 +1,9 @@
+[package]
+name = "create2-bin"
+version = "0.1.0"
+authors = ["Matt Garnett <crates@garnett.dev>"]
+edition = "2018"
+
+[dependencies]
+create2 = { path = "../../" }
+hex = "0.4.2"

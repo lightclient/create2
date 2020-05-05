@@ -1,8 +1,15 @@
 [package]
 name = "create2"
-version = "0.0.0"
+version = "0.0.1"
 authors = ["Matt Garnett <crates@garnett.dev>"]
 edition = "2018"
+license = "MIT/Apache-2.0"
+readme = "README.md"
+repository = "https://github.com/lightclient/create2"
+description = """
+A library for calculating the address of contracts deployed via CREATE2.
+"""
+keywords = ["create2", "evm", "ethereum"]
 
 [dependencies]
 sha3 = "0.8.2"
